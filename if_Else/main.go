@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	age := 10
+	age := 21
 
 	money := 100000
 
@@ -49,4 +49,58 @@ func main() {
 	//  Logical AND => "&&" => true && false = false
 	//  Logical OR => "||" => false || false = false
 	//  Logical NOT => "!" => !false = true
+
+	
+}
+func aIsGreaterThanB() {
+	var a int
+	var b int
+
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+
+	if a>b {
+		fmt.Println("Coding is Fun!")
+	}
+}
+
+func numberChecking(){
+	var r, b int
+	r = 45
+	b = 23
+	if r > b {
+		fmt.Println("Rob Scored higher marks than Bob.")
+	} else if r == b {
+		fmt.Println("Bob & Rob both scored the same")
+	}
+
+	r = 15
+	b = 15
+	if r > b {
+		fmt.Println("Rob Scored higher marks than Bob.")
+	} else if r == b {
+		fmt.Println("Bob & Rob both scored the same")
+	}
+}
+
+func weightChecking(){
+	r := 24
+	k := 32
+	if r > k {
+		fmt.Println("Ram is heavier than Karan.")
+	} else if r < k {
+		fmt.Println("Karan is heavier than Ram")
+	} else {
+		fmt.Println("Ram & Karan have the same weight!")
+	}
+
+	r = 78
+	k = 78
+	if r > k {
+		fmt.Println("Ram is heavier than Karan.")
+	} else if r < k {
+		fmt.Println("Karan is heavier than Ram")
+	} else {
+		fmt.Println("Ram & Karan have the same weight!")
+	}
 }
